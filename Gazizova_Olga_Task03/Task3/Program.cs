@@ -20,23 +20,19 @@ namespace Task3
             a = f;
         }
 
-        public static int Generate(int[] arr)
+        public static void Generate(Random rand,Random min, int[] arr)
         {
-            Random rnd = new Random();
-            Random minus = new Random();
             int dim = arr.Length;
             for (int i = 0; i < dim; i++)
             {
-                int mark = minus.Next(2);
+                int mark = min.Next(2);
                 if (mark == 1)
                 {
-                    arr[i] = rnd.Next(50);
+                    arr[i] = rand.Next(50);
                 }
                 else
-                    arr[i] = -rnd.Next(50);
+                    arr[i] = -rand.Next(50);
             }
-
-            return arr[dim - 1];
         }
 
         public static void Printing(int[] arr)
@@ -62,11 +58,13 @@ namespace Task3
         static void Main(string[] args)
         {
             int mas;
+            Random rnd = new Random();
+            Random minus = new Random();
             Console.WriteLine("Какова размерность массива?");
             string str = Console.ReadLine();
             Verifing(str, out mas);
             int[] numbers = new int[mas];
-            Generate(numbers);
+            Generate(rnd, minus,numbers);
             Printing(numbers);
             Console.WriteLine("Сумма неотрицательных элемнтов равна {0}", Sum(numbers));
             Console.ReadKey();

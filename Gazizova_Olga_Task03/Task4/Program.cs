@@ -19,20 +19,17 @@ namespace Task4
             a = f;
         }
 
-        public static int Generate(int[,] arr)
+        public static void Generate(Random rand, int[,] arr)
         {
-            Random rnd = new Random();
             int dim = arr.GetLength(0);
             int dim1 = arr.GetLength(1);
             for (int i = 0; i < dim; i++)
             {
                 for (int j = 0; j < dim1; j++)
                 {
-                    arr[i,j] = rnd.Next(50);
+                    arr[i,j] = rand.Next(50);
                 }
             }
-
-            return arr[dim - 1, dim1-1];
         }
         public static int Sum(int[,] arr)
         {
@@ -41,7 +38,10 @@ namespace Task4
             {
                 for (int j = 0; j < arr.GetLength(1); j++)
                 {
-                    if ((i + j) % 2 != 0) sum = sum + arr[i, j];
+                    if ((i + j) % 2 != 0)
+                    {
+                        sum = sum + arr[i, j];
+                    }
                 }
             }
             return sum;
@@ -59,6 +59,7 @@ namespace Task4
         static void Main(string[] args)
         {
             int a, b;
+            Random rnd = new Random();
             Console.WriteLine("Введите 2 измерения двухмерного массива \nПервое ");
             string str = Console.ReadLine();
             Verifing(str, out a);
@@ -66,7 +67,7 @@ namespace Task4
             str = Console.ReadLine();
             Verifing(str, out b);
             int[,] numbers = new int[a, b];
-            Generate(numbers);
+            Generate(rnd,numbers);
             Printing(numbers);
             Console.WriteLine("Сумма требуемых элементов {0}", Sum(numbers));
             Console.ReadKey();

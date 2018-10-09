@@ -19,10 +19,8 @@ namespace Task2
             a = f;
         }
 
-        public static int Generate(int[,,] arr)
+        public static void Generate(Random rand, Random min, int[,,] arr)
         {
-            Random rnd = new Random ();
-            Random minus = new Random();
             int dim = arr.GetLength(0);
             int dim1 = arr.GetLength(1);
             int dim2 = arr.GetLength(2);
@@ -32,21 +30,19 @@ namespace Task2
                 {
                     for (int k = 0; k < dim2; k++)
                     {
-                        int mark = minus.Next(2);
+                        int mark = min.Next(2);
                         if (mark == 1)
                         {
-                            arr[i, j, k] = rnd.Next(100);
+                            arr[i, j, k] = rand.Next(100);
                         }
                         else
-                            arr[i, j, k] = -rnd.Next(100);
+                            arr[i, j, k] = -rand.Next(100);
                     }
                 }
             }
-
-            return arr[dim-1,dim1-1,dim2-1];
         }
 
-        public static int Nullify(int[,,] arr)
+        public static void Nullify(int[,,] arr)
         {
             int dim = arr.GetLength(0);
             int dim1 = arr.GetLength(1);
@@ -64,8 +60,6 @@ namespace Task2
                     }
                 }
             }
-
-            return arr[dim-1,dim1-1,dim2-1];
         }
 
         public static void Printing(int[,,] arr)
@@ -87,6 +81,8 @@ namespace Task2
         static void Main(string[] args)
         {
             int a, b, c;
+            Random rnd = new Random();
+            Random minus = new Random();
             Console.WriteLine("Введите 3 измерения трехмерного массива \nПервое ");
             string str = Console.ReadLine();
             Verifing(str, out a);
@@ -97,7 +93,7 @@ namespace Task2
             str = Console.ReadLine();
             Verifing(str, out c);
             int[,,] numbers = new int[a, b, c];
-            Generate(numbers);
+            Generate(rnd, minus,numbers);
             Console.WriteLine("Исходный массив");
             Printing(numbers);
             Console.ReadKey();
