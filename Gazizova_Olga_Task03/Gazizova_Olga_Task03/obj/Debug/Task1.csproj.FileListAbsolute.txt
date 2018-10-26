@@ -1,0 +1,7 @@
+D:\EPAM\Gazizova_Olga_Task03\Gazizova_Olga_Task03\bin\Debug\Gazizova_Olga_Task03.exe.config
+D:\EPAM\Gazizova_Olga_Task03\Gazizova_Olga_Task03\bin\Debug\Gazizova_Olga_Task03.exe
+D:\EPAM\Gazizova_Olga_Task03\Gazizova_Olga_Task03\bin\Debug\Gazizova_Olga_Task03.pdb
+D:\EPAM\Gazizova_Olga_Task03\Gazizova_Olga_Task03\obj\Debug\Task1.csprojResolveAssemblyReference.cache
+D:\EPAM\Gazizova_Olga_Task03\Gazizova_Olga_Task03\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+D:\EPAM\Gazizova_Olga_Task03\Gazizova_Olga_Task03\obj\Debug\Gazizova_Olga_Task03.exe
+D:\EPAM\Gazizova_Olga_Task03\Gazizova_Olga_Task03\obj\Debug\Gazizova_Olga_Task03.pdb
