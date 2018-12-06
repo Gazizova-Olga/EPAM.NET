@@ -1,0 +1,10 @@
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Depart.DAL\bin\Debug\Depart.DAL.exe.config
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Depart.DAL\bin\Debug\Depart.DAL.exe
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Depart.DAL\bin\Debug\Depart.DAL.pdb
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Depart.DAL\bin\Debug\Entities.dll
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Depart.DAL\bin\Debug\Entities.pdb
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Depart.DAL\obj\Debug\Depart.DAL.csprojAssemblyReference.cache
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Depart.DAL\obj\Debug\Depart.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Depart.DAL\obj\Debug\Depart.DAL.csproj.CopyComplete
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Depart.DAL\obj\Debug\Depart.DAL.exe
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Depart.DAL\obj\Debug\Depart.DAL.pdb

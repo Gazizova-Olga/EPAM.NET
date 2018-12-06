@@ -1,0 +1,13 @@
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\bin\Debug\Gazizova_olga_Task19.exe.config
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\bin\Debug\Gazizova_olga_Task19.exe
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\bin\Debug\Gazizova_olga_Task19.pdb
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\bin\Debug\Depart.DAL.exe
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\bin\Debug\Entities.dll
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\bin\Debug\Depart.DAL.pdb
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\bin\Debug\Depart.DAL.exe.config
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\bin\Debug\Entities.pdb
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\obj\Debug\Depart.BLL.csprojAssemblyReference.cache
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\obj\Debug\Depart.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\obj\Debug\Depart.BLL.csproj.CopyComplete
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\obj\Debug\Gazizova_olga_Task19.exe
+C:\Users\Auren\source\repos\Gazizova_olga_Task19\Gazizova_olga_Task19\obj\Debug\Gazizova_olga_Task19.pdb
